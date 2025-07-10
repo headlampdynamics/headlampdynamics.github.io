@@ -37,42 +37,46 @@
     </div>
   </header>
 
-  <!-- SOLUTIONS -->
-  <section id="solutions" class="py-24 bg-gray-900">
-    <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-16">Core Solutions</h2>
-      <div class="grid lg:grid-cols-2 gap-12">
-        <!-- Optimisation -->
-        <div class="glass p-8 rounded-3xl shadow-2xl hover:shadow-indigo-600/50 transition duration-300">
-          <div class="flex items-center mb-4">
-            <i data-feather="trending-up" class="w-8 h-8 mr-3 text-indigo-400"></i>
-            <h3 class="text-2xl font-semibold">Controller Optimisation</h3>
-          </div>
-          <p class="italic mb-4">Cost savings & production gains using the controllers you already have.</p>
-          <ul class="space-y-2 text-gray-100">
-            <li class="flex items-start"><i data-feather="search" class="w-5 h-5 mr-2 text-indigo-300"></i> Pin‑point hidden inefficiencies from historical & live data.</li>
-            <li class="flex items-start"><i data-feather="cpu" class="w-5 h-5 mr-2 text-indigo-300"></i> Apply fuzzy‑basis and LTC models for smarter set‑points.</li>
-            <li class="flex items-start"><i data-feather="tool" class="w-5 h-5 mr-2 text-indigo-300"></i> Retune Allen‑Bradley PLC / DCS code—no new hardware.</li>
-          </ul>
-          <p class="mt-6 font-medium text-indigo-200">Outcome focus: lower energy use, higher throughput, smoother startups.</p>
+  <!-- CORE SOLUTIONS -->
+<section id="solutions" class="py-24 bg-gray-900">
+  <div class="container mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-16">Core Solutions</h2>
+    <div class="grid lg:grid-cols-2 gap-12">
+
+      <!-- Control Tuning & Dynamics -->
+      <div class="glass p-8 rounded-3xl shadow-2xl hover:shadow-indigo-600/50 transition duration-300">
+        <div class="flex items-center mb-4">
+          <i data-feather="sliders" class="w-8 h-8 mr-3 text-indigo-400"></i>
+          <h3 class="text-2xl font-semibold">Control Logic & Dynamic Tuning</h3>
         </div>
-        <!-- Predictive Health -->
-        <div class="glass p-8 rounded-3xl shadow-2xl hover:shadow-pink-600/50 transition duration-300">
-          <div class="flex items-center mb-4">
-            <i data-feather="shield" class="w-8 h-8 mr-3 text-pink-400"></i>
-            <h3 class="text-2xl font-semibold">Health Monitoring & Fault Detection</h3>
-          </div>
-          <p class="italic mb-4">Stop unplanned downtime before it starts.</p>
-          <ul class="space-y-2 text-gray-100">
-            <li class="flex items-start"><i data-feather="layers" class="w-5 h-5 mr-2 text-pink-300"></i> Build real‑time digital twins in Python/MATLAB.</li>
-            <li class="flex items-start"><i data-feather="activity" class="w-5 h-5 mr-2 text-pink-300"></i> Detect subtle change with critical‑slowing‑down signals.</li>
-            <li class="flex items-start"><i data-feather="bell" class="w-5 h-5 mr-2 text-pink-300"></i> Push actionable alerts to control rooms & CMMS.</li>
-          </ul>
-          <p class="mt-6 font-medium text-pink-200">Outcome focus: earlier fault warning, planned maintenance, reduced downtime.</p>
-        </div>
+        <p class="italic mb-4">Sharper setpoints, smoother recovery, less second-guessing.</p>
+        <ul class="space-y-2 text-gray-100">
+          <li class="flex items-start"><i data-feather="shuffle" class="w-5 h-5 mr-2 text-indigo-300"></i> Identify dynamic bottlenecks and sensitivity in real process data.</li>
+          <li class="flex items-start"><i data-feather="settings" class="w-5 h-5 mr-2 text-indigo-300"></i> Retune control code (e.g. Allen-Bradley, DCS) using system behavior—not guesses.</li>
+          <li class="flex items-start"><i data-feather="aperture" class="w-5 h-5 mr-2 text-indigo-300"></i> Use LTC and model-based logic to stabilize without overcorrection.</li>
+        </ul>
+        <p class="mt-6 font-medium text-indigo-200">Outcome: tighter control with fewer alarms and smoother transitions.</p>
       </div>
+
+      <!-- Fault Detection & Dynamics Insight -->
+      <div class="glass p-8 rounded-3xl shadow-2xl hover:shadow-pink-600/50 transition duration-300">
+        <div class="flex items-center mb-4">
+          <i data-feather="activity" class="w-8 h-8 mr-3 text-pink-400"></i>
+          <h3 class="text-2xl font-semibold">Dynamic Monitoring & Fault Signals</h3>
+        </div>
+        <p class="italic mb-4">Catch drift, instability, and subtle changes before they escalate.</p>
+        <ul class="space-y-2 text-gray-100">
+          <li class="flex items-start"><i data-feather="bar-chart-2" class="w-5 h-5 mr-2 text-pink-300"></i> Model how your system slows down or shifts near failure points.</li>
+          <li class="flex items-start"><i data-feather="bell" class="w-5 h-5 mr-2 text-pink-300"></i> Generate early-warning signals from dynamics, not just thresholds.</li>
+          <li class="flex items-start"><i data-feather="cpu" class="w-5 h-5 mr-2 text-pink-300"></i> Deploy compact, interpretable models in Python or MATLAB.</li>
+        </ul>
+        <p class="mt-6 font-medium text-pink-200">Outcome: earlier intervention, better root-cause insight, and fewer blind spots.</p>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- WHO WE SERVE -->
 <section id="who-we-serve" class="py-24 bg-gradient-to-b from-gray-800 to-gray-900">
@@ -99,34 +103,40 @@
 </section>
 
 
-  <!-- PROCESS -->
-  <section id="process" class="py-24 bg-gradient-to-b from-gray-900 to-gray-800">
-    <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-16">Fast, Lean Engagement</h2>
-      <div class="grid md:grid-cols-4 gap-8 text-center">
-        <div class="glass p-6 rounded-2xl">
-          <i data-feather="phone" class="w-10 h-10 mx-auto mb-4 text-indigo-400"></i>
-          <h3 class="font-semibold mb-2">1. Discovery</h3>
-          <p class="text-sm text-gray-300">15‑minute call to map pain points & KPIs.</p>
-        </div>
-        <div class="glass p-6 rounded-2xl">
-          <i data-feather="file-text" class="w-10 h-10 mx-auto mb-4 text-indigo-400"></i>
-          <h3 class="font-semibold mb-2">2. Rapid Assessment</h3>
-          <p class="text-sm text-gray-300">ROI‑ranked action plan in 5‑10 days.</p>
-        </div>
-        <div class="glass p-6 rounded-2xl">
-          <i data-feather="zap" class="w-10 h-10 mx-auto mb-4 text-indigo-400"></i>
-          <h3 class="font-semibold mb-2">3. Pilot Fix</h3>
-          <p class="text-sm text-gray-300">Deploy, validate, iterate—weeks, not quarters.</p>
-        </div>
-        <div class="glass p-6 rounded-2xl">
-          <i data-feather="book-open" class="w-10 h-10 mx-auto mb-4 text-indigo-400"></i>
-          <h3 class="font-semibold mb-2">4. Handoff</h3>
-          <p class="text-sm text-gray-300">You keep code & know‑how; scale as needed.</p>
-        </div>
+<!-- PROCESS -->
+<section id="process" class="py-24 bg-gradient-to-b from-gray-900 to-gray-800">
+  <div class="container mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-16">How Engagement Works</h2>
+    <div class="grid md:grid-cols-4 gap-8 text-center">
+
+      <div class="glass p-6 rounded-2xl">
+        <i data-feather="phone" class="w-10 h-10 mx-auto mb-4 text-indigo-400"></i>
+        <h3 class="font-semibold mb-2">1. Scoping Call</h3>
+        <p class="text-sm text-gray-300">Brief conversation to understand your system, constraints, and what’s not working as expected.</p>
       </div>
+
+      <div class="glass p-6 rounded-2xl">
+        <i data-feather="file-text" class="w-10 h-10 mx-auto mb-4 text-indigo-400"></i>
+        <h3 class="font-semibold mb-2">2. Data-Driven Assessment</h3>
+        <p class="text-sm text-gray-300">We review your historical trends, logic, or alarms to find dynamics worth modeling or tuning.</p>
+      </div>
+
+      <div class="glass p-6 rounded-2xl">
+        <i data-feather="zap" class="w-10 h-10 mx-auto mb-4 text-indigo-400"></i>
+        <h3 class="font-semibold mb-2">3. Targeted Prototype</h3>
+        <p class="text-sm text-gray-300">We develop a lightweight model or tuning update to test on a slice of the process—no downtime required.</p>
+      </div>
+
+      <div class="glass p-6 rounded-2xl">
+        <i data-feather="tool" class="w-10 h-10 mx-auto mb-4 text-indigo-400"></i>
+        <h3 class="font-semibold mb-2">4. Feedback & Handoff</h3>
+        <p class="text-sm text-gray-300">You get the models, code, and diagnostics to keep or build on. Follow-up support is optional.</p>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- FOOTER / CONTACT -->
   <section id="contact" class="bg-gray-900 py-20">
@@ -137,6 +147,20 @@
       <br>
       <a href="https://calendly.com/headlampdynamics" class="underline text-indigo-300">Schedule on Calendly</a>
     </div>
+    <form action="mailto:headlampdynamics@gmail.com" method="POST" enctype="text/plain" class="mt-10 bg-gray-800 p-6 rounded-xl shadow-xl text-left">
+  <label for="name" class="block text-sm text-gray-300 mb-2">Name</label>
+  <input type="text" id="name" name="name" required class="w-full p-3 mb-4 bg-gray-900 border border-gray-700 rounded text-white">
+
+  <label for="email" class="block text-sm text-gray-300 mb-2">Email</label>
+  <input type="email" id="email" name="email" required class="w-full p-3 mb-4 bg-gray-900 border border-gray-700 rounded text-white">
+
+  <label for="message" class="block text-sm text-gray-300 mb-2">Message</label>
+  <textarea id="message" name="message" rows="5" required class="w-full p-3 mb-6 bg-gray-900 border border-gray-700 rounded text-white"></textarea>
+
+  <button type="submit" class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded shadow-lg">
+    Send Message
+  </button>
+</form>
   </section>
 
   <footer class="bg-gray-800 text-gray-400 py-6 text-center text-sm">
